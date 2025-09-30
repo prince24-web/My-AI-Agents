@@ -42,18 +42,25 @@ gemini_scraper_agent/
    cd gemini-scraper-agent
 
  **Create a virtual environment (recommended)**
+```bash
  python -m venv venv
+```
 # On Windows
+```bash
 .\venv\Scripts\activate
+```
 # On macOS/Linux
+```bash
 source venv/bin/activate
-
+```
 ## Install dependencies
+``` bash
 pip install -r requirements.txt
-
+```
 ## Running the App
+``` bash
 streamlit run app.py
-
+```
 ** Example Prompts **
 - Summarize this article in 5 bullet points
 - Extract all names of people mentioned
