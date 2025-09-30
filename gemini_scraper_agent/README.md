@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ## Running the App
 streamlit run app.py
 
-## Example Prompts
+** Example Prompts **
 - Summarize this article in 5 bullet points
 - Extract all names of people mentioned
 - Rewrite this news post as a Twitter thread
